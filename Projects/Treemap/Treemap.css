@@ -1,0 +1,41 @@
+body {
+    background-color: #242424;
+    color:aliceblue;
+}
+
+h1 {
+    font: 36px 'Bree Serif', serif;
+}
+
+p {
+    font: 16px 'Bree Serif', serif;
+}
+
+.tile-text {
+    font: 10px 'Bree Serif', serif;
+}
+
+.legend-text {
+    font: 14px 'Bree Serif', serif;
+}
+
+div#display {
+    display: block;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px;
+    background-color: #272727;
+
+}
+
+div#tooltip {	
+    position: absolute;			
+    text-align: center;			
+    display: inline-block;					
+    padding: 10px;				
+    font: 12px 'Bree Serif', serif;		
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 8px;					
+}
